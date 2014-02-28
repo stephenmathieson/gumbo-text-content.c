@@ -1,0 +1,13 @@
+{
+  "name": "gumbo-text-content",
+  "version": "0.0.0",
+  "repo": "stephenmathieson/gumbo-text-content.c",
+  "license": "MIT",
+  "src": [
+    "src/gumbo-text-content.c",
+    "src/gumbo-text-content.h"
+  ],
+  "dependencies": {
+    "thlorenz/gumbo-parser.c": "*"
+  }
+}
