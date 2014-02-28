@@ -71,10 +71,10 @@ gumbo_text_content(GumboNode *node) {
 
   text_content = malloc(length);
   if (!text_content) goto cleanup;
+  *text_content = '\0';
   // join all text nodes
   for (size_t i = 0; i < text_nodes->length; i++) {
     size_t l = strlen(text_nodes->nodes[i]);
-    // pass reference for performance :)
     strncat(&text_content[pos], text_nodes->nodes[i], l);
     pos += l;
     text_content[pos] = '\0';
