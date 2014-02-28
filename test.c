@@ -5,7 +5,7 @@
 #include <string.h>
 #include <time.h>
 #include "gumbo-parser/gumbo.h"
-#include "gumbo-text.h"
+#include "gumbo-text-content.h"
 
 #define EQUALS(a, b) ({                               \
   if (0 != strcmp(a, b))  {                           \
