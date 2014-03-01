@@ -58,7 +58,7 @@ char *
 gumbo_text_content(GumboNode *node) {
   text_nodes_t *text_nodes = NULL;
   char *text_content = NULL;
-  size_t length = 0;
+  size_t length = 1;
   int pos = 0;
 
   text_nodes = get_text_nodes(node);
